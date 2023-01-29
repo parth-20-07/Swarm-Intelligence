@@ -3,10 +3,10 @@
 **Table of Contents**
 <!-- TOC -->
 
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [Introduction](#introduction)
+- [Triadic Closure](#triadic-closure)
+- [Strong and Weak Ties](#strong-and-weak-ties)
+- [Betweenness](#betweenness)
 
 <!-- /TOC -->
 # Introduction
