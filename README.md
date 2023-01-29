@@ -6,6 +6,7 @@
 - [How to run the Assignments](#how-to-run-the-assignments)
     - [Assignment 1](#assignment-1)
     - [Assignment 2](#assignment-2)
+    - [Assignment 3](#assignment-3)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -24,6 +25,9 @@ Assignment 1 is a basic test on Geometry, Probability, Calculus and Differential
 
 ## Assignment 2
 Assignment 2 is meant for developing understanding in Graph Theory.&emsp;[Assignment](/HW%202/README.md)
+
+## Assignment 3
+Assignment 3 is meant for understanding Schelling's Model.&emsp;[Assignment](/HW%203/README.md)
 
 # Design Details
 - Designed for:
