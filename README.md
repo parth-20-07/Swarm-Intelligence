@@ -5,6 +5,8 @@
 - [Introduction](#introduction)
 - [How to run the Assignments](#how-to-run-the-assignments)
     - [Assignment 1](#assignment-1)
+    - [Assignment 2](#assignment-2)
+- [Design Details](#design-details)
 - [License](#license)
 
 <!-- /TOC -->
@@ -20,6 +22,10 @@ Each Assignment shown here has a detailed explaination in its own directory. Ple
 ## Assignment 1
 Assignment 1 is a basic test on Geometry, Probability, Calculus and Differential Equations.&emsp;[Assignment](/HW%201/)
 
+## Assignment 2
+Assignment 2 is meant for developing understanding in Graph Theory.&emsp;[Assignment](/HW%202/README.md)
+
+# Design Details
 - Designed for:
   - Worcester Polytechnic Institute
   - RBE 595-S07 - ST: Swarm Intelligence Assignments
