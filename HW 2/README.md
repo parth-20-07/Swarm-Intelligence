@@ -21,11 +21,11 @@ The aim of the assignment is to understand the networks by taking into accounts 
 - A graph is a set of **nodes** connected by **edges**.
 - Two nodes are **neighbors** if they are connected by one edge.
 
-![Undirected Graph](/HW%202/Images/Undirected%20Graph.png)
+![Undirected Graph](./Images/Undirected%20Graph.png)
 
 *(Fig. Undirected Graph)*
 
-![Directed Graph](/HW%202/Images/Directed%20Graph.png)
+![Directed Graph](./Images/Directed%20Graph.png)
 
 *(Fig. Directed Graph)*
 
@@ -37,7 +37,7 @@ The aim of the assignment is to understand the networks by taking into accounts 
 
 This principle is called **triadic closure**.
 
-![Triadic Closure](/HW%202/Images/Triadic%20Closure.png)
+![Triadic Closure](./Images/Triadic%20Closure.png)
 
 *(Fig. Triadic Closure)*
 
@@ -48,7 +48,7 @@ To make sense of Granovetter's findings, a new concept of **strength** of an edg
 - **Strong Tie** corresponds to a close friendship.
 - **Weak Tie** corresponds to an acquaintance.
 
-![Strong Weak Ties](/HW%202/Images/Strong%20Weak%20Tie.png)
+![Strong Weak Ties](./Images/Strong%20Weak%20Tie.png)
 
 *(Fig. Strong/Weak Ties)*
 

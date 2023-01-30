@@ -7,6 +7,7 @@
     - [Assignment 1](#assignment-1)
     - [Assignment 2](#assignment-2)
     - [Assignment 3](#assignment-3)
+    - [Assignment 4](#assignment-4)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -20,14 +21,17 @@ Each Assignment shown here has a detailed explaination in its own directory. Ple
 
 # How to run the Assignments
 
-## Assignment 1
-Assignment 1 is a basic test on Geometry, Probability, Calculus and Differential Equations.&emsp;[Assignment](/HW%201/)
+## [Assignment 1]((/HW%201/))
+Assignment 1 is a basic test on Geometry, Probability, Calculus and Differential Equations.
 
-## Assignment 2
-Assignment 2 is meant for developing understanding in Graph Theory.&emsp;[Assignment](/HW%202/)
+## [Assignment 2]((/HW%202/))
+Assignment 2 is meant for developing understanding in Graph Theory.
 
-## Assignment 3
-Assignment 3 is meant for understanding Schelling's Model.&emsp;[Assignment](/HW%203/)
+## [Assignment 3]((/HW%203/))
+Assignment 3 is meant for understanding Schelling's Model.
+
+## [Assignment 4]((/HW%204/))
+Assignment 4 is meant for understanding Nash Equilibria.
 
 # Design Details
 - Designed for:

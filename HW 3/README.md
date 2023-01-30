@@ -69,19 +69,19 @@ python3 main.py
 
 - 1D Coverage = 0.6
 
-    ![0.6P,1D](/HW%203/Images/p61.png)
+    ![0.6P,1D](./Images/p61.png)
 
 - 1D Coverage = 0.8
 
-    ![0.8P,1D](/HW%203/Images/p81.png)
+    ![0.8P,1D](./Images/p81.png)
 
 - 2D Coverage = 0.6
 
-    ![0.8P,2D](/HW%203/Images/p62.png)
+    ![0.8P,2D](./Images/p62.png)
 
 - 2D Coverage = 0.8
 
-    ![0.8P,2D](/HW%203/Images/p82.png)
+    ![0.8P,2D](./Images/p82.png)
 
 ## How can fast segregation be reached?
 - Fast Segregation can be reached by focusing on 1D Segregation where you focus on relocating on the same row for a new position.
@@ -96,51 +96,51 @@ Though, this experimentation results in complete seperation of agents resulting 
 
 - 1D Coverage = 0.6, T = 3
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.6/S%203/TS%201674794946/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.6/S%203/TS%201674794946/schelling_model.gif)
 
 - 1D Coverage = 0.6, T = 4
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.6/S%204/TS%201674794966/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.6/S%204/TS%201674794966/schelling_model.gif)
 
 - 1D Coverage = 0.6, T = 5
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.6/S%205/TS%201674795021/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.6/S%205/TS%201674795021/schelling_model.gif)
 
 - 1D Coverage = 0.8, T = 3
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.8/S%203/TS%201674795122/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.8/S%203/TS%201674795122/schelling_model.gif)
 
 - 1D Coverage = 0.8, T = 4
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.8/S%204/TS%201674795163/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.8/S%204/TS%201674795163/schelling_model.gif)
 
 - 1D Coverage = 0.8, T = 5
 
-    ![0.6P,T3](/HW%203/1D/Coverage%200.8/S%205/TS%201674795315/schelling_model.gif)
+    ![0.6P,T3](./1D/Coverage%200.8/S%205/TS%201674795315/schelling_model.gif)
 
 - 2D Coverage = 0.6, T = 3
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.6/S%203/TS%201674795358/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.6/S%203/TS%201674795358/schelling_model.gif)
 
 - 2D Coverage = 0.6, T = 4
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.6/S%204/TS%201674795629/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.6/S%204/TS%201674795629/schelling_model.gif)
 
 - 2D Coverage = 0.6, T = 5
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.6/S%205/TS%201674796284/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.6/S%205/TS%201674796284/schelling_model.gif)
 
 - 2D Coverage = 0.8, T = 3
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.8/S%203/TS%201674796301/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.8/S%203/TS%201674796301/schelling_model.gif)
 
 - 2D Coverage = 0.8, T = 4
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.8/S%204/TS%201674796856/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.8/S%204/TS%201674796856/schelling_model.gif)
 
 - 2D Coverage = 0.8, T = 5
 
-    ![0.6P,T3](/HW%203/2D/Coverage%200.8/S%205/TS%201674797139/schelling_model.gif)
+    ![0.6P,T3](./2D/Coverage%200.8/S%205/TS%201674797139/schelling_model.gif)
 
 
 # Resources
