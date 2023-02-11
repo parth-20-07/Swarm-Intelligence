@@ -21,16 +21,16 @@ Each Assignment shown here has a detailed explaination in its own directory. Ple
 
 # How to run the Assignments
 
-## [Assignment 1]((/HW%201/))
+## [Assignment 1](./HW%201/)
 Assignment 1 is a basic test on Geometry, Probability, Calculus and Differential Equations.
 
-## [Assignment 2]((/HW%202/))
+## [Assignment 2](./HW%202/)
 Assignment 2 is meant for developing understanding in Graph Theory.
 
-## [Assignment 3]((/HW%203/))
-Assignment 3 is meant for understanding Schelling's Model.
+## [Assignment 3](./HW%203/)
+Assignment 3 is meant for understanding Schelling's Model. The programming script in the project generates various scenario to visualize the Schelling Model.
 
-## [Assignment 4]((/HW%204/))
+## [Assignment 4](./HW%204/)
 Assignment 4 is meant for understanding Nash Equilibria.
 
 # Design Details
