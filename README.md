@@ -9,6 +9,7 @@
     - [Assignment 3](#assignment-3)
     - [Assignment 4](#assignment-4)
     - [Assignment 5](#assignment-5)
+    - [Assignment 6](#assignment-6)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -36,6 +37,9 @@ Assignment 4 is meant for understanding Nash Equilibria.
 
 ## [Assignment 5](./HW%205/)
 Assignment 5 is meant for understanding Information Cascades and Traffic Flow.
+
+## [Assignment 6](./HW%206/)
+Assignment 6 is meant for understanding in coupled Oscillation in Swarm Intelligence.
 
 # Design Details
 - Designed for:
