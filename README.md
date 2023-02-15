@@ -8,6 +8,7 @@
     - [Assignment 2](#assignment-2)
     - [Assignment 3](#assignment-3)
     - [Assignment 4](#assignment-4)
+    - [Assignment 5](#assignment-5)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -32,6 +33,9 @@ Assignment 3 is meant for understanding Schelling's Model. The programming scrip
 
 ## [Assignment 4](./HW%204/)
 Assignment 4 is meant for understanding Nash Equilibria.
+
+## [Assignment 5](./HW%205/)
+Assignment 5 is meant for understanding Information Cascades and Traffic Flow.
 
 # Design Details
 - Designed for:
