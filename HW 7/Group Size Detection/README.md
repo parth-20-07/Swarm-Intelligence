@@ -1,4 +1,4 @@
-**Assignment 3**
+**Assignment 3: Group Size Detection**
 
 **Table of Contents**
 <!-- TOC -->
@@ -27,11 +27,13 @@ Quorum sensing is **the regulation of gene expression in response to fluctuation
 
 ## Install Dependencies
 
-Install all the essential Python dependencies using:
+Install all the essential Python dependencies[^1] using:
 
 ```sh
 pip3 install -r requirements.txt
 ```
+
+[^1]: *The complete code has been written on Ubuntu 20.04 LTS and not tested on any other system.*
 
 # Pseudocode
 

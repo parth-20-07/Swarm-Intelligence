@@ -10,6 +10,7 @@
     - [Assignment 4](#assignment-4)
     - [Assignment 5](#assignment-5)
     - [Assignment 6](#assignment-6)
+    - [Assignment 7](#assignment-7)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -40,6 +41,11 @@ Assignment 5 is meant for understanding Information Cascades and Traffic Flow.
 
 ## [Assignment 6](./HW%206/)
 Assignment 6 is meant for understanding in coupled Oscillation in Swarm Intelligence.
+
+## [Assignment 7](./HW%207/)
+Assignment 6 is meant for understanding in quorum sensing and Structural Models in Voting. It is a 2 part assignment:
+- [Group Size Detection](./HW%207/Group%20Size%20Detection/)
+- [Voting](./HW%207/Voting/README.md)
 
 # Design Details
 - Designed for:
