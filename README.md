@@ -11,6 +11,7 @@
     - [Assignment 5](#assignment-5)
     - [Assignment 6](#assignment-6)
     - [Assignment 7](#assignment-7)
+    - [Assignment 8](#assignment-8)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -46,6 +47,9 @@ Assignment 6 is meant for understanding in coupled Oscillation in Swarm Intellig
 Assignment 6 is meant for understanding in quorum sensing and Structural Models in Voting. It is a 2 part assignment:
 - [Group Size Detection](./HW%207/Group%20Size%20Detection/)
 - [Voting](./HW%207/Voting/README.md)
+
+## [Assignment 8](./HW%208/)
+Assignment 8 is meant for learning the Swarm Simulation Software Argos and its programming language Buzz by implementing Diffusion and Coupled Oscillation.
 
 # Design Details
 - Designed for:

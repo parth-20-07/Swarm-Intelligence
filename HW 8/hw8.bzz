@@ -1,0 +1,54 @@
+# Velocities
+velocity_val = 10.0;
+proximity_flag_val = 0.5;
+
+T = 100;
+state = 0;
+c = 0;
+k = 0.5;
+
+function neighbor_flashed(){
+    c = c+(k*c);
+}
+
+function go_to_random_location_while_avoiding_obstacles(){
+    if((proximity[0].value > proximity_flag_val)&(proximity[1].value > proximity_flag_val)&(proximity[7].value > proximity_flag_val))
+        gotop(0,0);
+    else if(proximity[0].value > proximity_flag_val)
+        gotop(0,velocity_val);
+    else if(proximity[1].value > proximity_flag_val)
+        gotop(0,velocity_val);
+    else if(proximity[2].value > proximity_flag_val)
+        gotop(0,velocity_val);
+    else if(proximity[7].value > proximity_flag_val)
+        gotop(0,-velocity_val);
+    else if(proximity[6].value > proximity_flag_val)
+        gotop(0,-velocity_val);
+    else
+        gotop(velocity_val,0);
+}
+
+function init() {
+		math.rng.setseed(50);
+    c = math.rng.uniform(T);
+}
+
+function step() {
+    go_to_random_location_while_avoiding_obstacles();
+    c = c+1;
+    neighbors.listen("flash", neighbor_flashed);
+    if(c>=T){
+        set_leds(255,255,255);
+        neighbors.broadcast("flash",true);
+        c = 0;
+    }
+    else{
+        set_leds(0,0,0);
+    }
+}
+
+function reset() {
+}
+
+function destroy() {
+}
