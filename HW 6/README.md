@@ -1,19 +1,20 @@
-**Assignment 3**
+**Assignment 6**
 
 **Table of Contents**
+
 <!-- TOC -->
 
 - [Introduction](#introduction)
-    - [Install Dependencies](#install-dependencies)
+  - [Install Dependencies](#install-dependencies)
 - [Pseudocode](#pseudocode)
 - [Code](#code)
-    - [How the files are structured](#how-the-files-are-structured)
-        - [model.py](#modelpy)
-        - [main.py](#mainpy)
-    - [How to run the code](#how-to-run-the-code)
+  - [How the files are structured](#how-the-files-are-structured)
+    - [model.py](#modelpy)
+    - [main.py](#mainpy)
+  - [How to run the code](#how-to-run-the-code)
 - [Results and Observations](#results-and-observations)
-    - [Observations and Personal Conclusions](#observations-and-personal-conclusions)
-    - [Interesting Experimentation](#interesting-experimentation)
+  - [Observations and Personal Conclusions](#observations-and-personal-conclusions)
+  - [Interesting Experimentation](#interesting-experimentation)
 - [Resources](#resources)
 
 <!-- /TOC -->
@@ -27,13 +28,10 @@ What the statement means is:
 If you put together objects that oscillate (glowing or moving about a fixed point, etc), in a discrete time frame, their oscillation will interact with each other and cause them to couple together and oscillate in unison.
 
 Examples:
+
 - Flyflies glowing in unison after some time being together.
 - Mechanical Oscillators syncing to oscillate together.
 - Menstrual Cycles of Women who live together matching up with time.
-
-
-
-[^1]: *Source: [Pulse Coupled Oscillator](http://www.scholarpedia.org/article/Pulse_coupled_oscillators)*
 
 ## Install Dependencies
 
@@ -64,6 +62,7 @@ step:
 ```
 
 In the above algorithm:
+
 - `c` (`counter_grid`) is an internal counter.
 - `T` (`max_value`) is the max value that `c` can reach. In our case, T = 100
 - `k` (`constant`) is a constant between 0 and 1.
@@ -211,45 +210,37 @@ python3 main.py
 
 - k = 0.1
 
-    ![k_0.1](./Images/0.1/coupled_oscillation.gif)
-
+  ![k_0.1](./Images/0.1/coupled_oscillation.gif)
 - k = 0.2
 
-    ![k_0.2](./Images/0.2/coupled_oscillation.gif)
-
+  ![k_0.2](./Images/0.2/coupled_oscillation.gif)
 - k = 0.3
 
-    ![k_0.3](./Images/0.3/coupled_oscillation.gif)
-
+  ![k_0.3](./Images/0.3/coupled_oscillation.gif)
 - k = 0.4
 
-    ![k_0.4](./Images/0.4/coupled_oscillation.gif)
-
+  ![k_0.4](./Images/0.4/coupled_oscillation.gif)
 - k = 0.5
 
-    ![k_0.5](./Images/0.5/coupled_oscillation.gif)
-
+  ![k_0.5](./Images/0.5/coupled_oscillation.gif)
 - k = 0.6
 
-    ![k_0.6](./Images/0.6/coupled_oscillation.gif)
-
+  ![k_0.6](./Images/0.6/coupled_oscillation.gif)
 - k = 0.7
 
-    ![k_0.7](./Images/0.7/coupled_oscillation.gif)
-
+  ![k_0.7](./Images/0.7/coupled_oscillation.gif)
 - k = 0.8
 
-    ![k_0.8](./Images/0.8/coupled_oscillation.gif)
-
+  ![k_0.8](./Images/0.8/coupled_oscillation.gif)
 - k = 0.9
 
-    ![k_0.9](./Images/0.9/coupled_oscillation.gif)
-
+  ![k_0.9](./Images/0.9/coupled_oscillation.gif)
 - k = 1
 
-    ![k_1](./Images/1/coupled_oscillation.gif)
+  ![k_1](./Images/1/coupled_oscillation.gif)
 
 ## Observations and Personal Conclusions
+
 - When perfect synchronization does not happen, blocks tend to form smaller groups which oscillate in negation of each other as their inverses.
 - Synchronization fails for k = 0.1
 - We start seeing 3-4 different coupled oscillations for k = 0.2
@@ -257,9 +248,13 @@ python3 main.py
 - k = 0.5 has 2 groups which oscillate in opposition of each other.
 
 ## Interesting Experimentation
+
 - If the counter is updated every time a neighbor is flashing and not just when any neighbor is flashing, we can achieve perfect synchronization in oscillations.
 
 # Resources
-- [Synchronization of Pulse-Coupled Biological Oscillators\
-Renato E. Mirollo and Steven H. Strogatz\
-SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
+
+- [Synchronization of Pulse-Coupled Biological Oscillators
+  Renato E. Mirollo and Steven H. Strogatz
+  SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
+
+[^1]: *Source: [Pulse Coupled Oscillator](http://www.scholarpedia.org/article/Pulse_coupled_oscillators)*

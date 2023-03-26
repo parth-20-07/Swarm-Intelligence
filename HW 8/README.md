@@ -1,16 +1,17 @@
-**Assignment 3**
+**Assignment 8**
 
 **Table of Contents**
+
 <!-- TOC -->
 
 - [Introduction](#introduction)
 - [Install Essentials](#install-essentials)
 - [Robot Model](#robot-model)
-    - [Proximity Sensor](#proximity-sensor)
-    - [Range and Bearing Communication System](#range-and-bearing-communication-system)
+  - [Proximity Sensor](#proximity-sensor)
+  - [Range and Bearing Communication System](#range-and-bearing-communication-system)
 - [Code](#code)
-    - [Dispersion](#dispersion)
-    - [Coupled Oscillation](#coupled-oscillation)
+  - [Dispersion](#dispersion)
+  - [Coupled Oscillation](#coupled-oscillation)
 - [How to run the code](#how-to-run-the-code)
 - [Simulation Results](#simulation-results)
 - [Resources](#resources)
@@ -24,6 +25,7 @@ The aim of the assignment is to simulation a swarm scenario where robots dispers
 # Install Essentials
 
 Three essential packages are needed to run this project:
+
 - ARGoS (Swarm Simulation Software)
 - Buzz (Programming Language for ARGoS)
 - Khepera IV Robot (Robot used for simulation)
@@ -114,10 +116,9 @@ argos3 -c hw8.argos
 Two windows will pop up:
 
 - ARGoS window
-    ![ARGoS](./Docs/ARGoS.png)
-
+  ![ARGoS](./Docs/ARGoS.png)
 - Buzz Editor
-    ![Editor](./Docs/Buzz%20Editor.png)
+  ![Editor](./Docs/Buzz%20Editor.png)
 
 Select `File->New/Open->hw8.bzz` to load the code script.
 
@@ -131,8 +132,8 @@ Press Run in the ARGoS Window to start the simulation.
 
 # Resources
 
-- [Synchronization of Pulse-Coupled Biological Oscillators\
-Renato E. Mirollo and Steven H. Strogatz\
-SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
+- [Synchronization of Pulse-Coupled Biological Oscillators
+  Renato E. Mirollo and Steven H. Strogatz
+  SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
 - [ARGoS Simulator](https://www.argos-sim.info/)
 - [Buzz Wiki](https://the.swarming.buzz/wiki/doku.php?id=start)
