@@ -29,8 +29,9 @@ function go_to_random_location_while_avoiding_obstacles(){
 }
 
 function init() {
-		math.rng.setseed(50);
+    math.rng.setseed(id);
     c = math.rng.uniform(T);
+    log(c);
 }
 
 function step() {

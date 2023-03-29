@@ -7,13 +7,14 @@
 - [Introduction](#introduction)
 - [Install Essentials](#install-essentials)
 - [Robot Model](#robot-model)
-  - [Proximity Sensor](#proximity-sensor)
-  - [Range and Bearing Communication System](#range-and-bearing-communication-system)
+    - [Proximity Sensor](#proximity-sensor)
+    - [Range and Bearing Communication System](#range-and-bearing-communication-system)
 - [Code](#code)
-  - [Dispersion](#dispersion)
-  - [Coupled Oscillation](#coupled-oscillation)
+    - [Dispersion](#dispersion)
+    - [Coupled Oscillation](#coupled-oscillation)
 - [How to run the code](#how-to-run-the-code)
 - [Simulation Results](#simulation-results)
+    - [Starting Frame](#starting-frame)
 - [Resources](#resources)
 
 <!-- /TOC -->
@@ -128,7 +129,15 @@ Press Run in the ARGoS Window to start the simulation.
 
 # Simulation Results
 
-![Simulation](./Docs/animation.gif)
+## Starting Frame
+
+- The first initiated frame is shown below:
+  
+  ![First Frame](./Docs/Images/frame_0000000001.png)
+
+- Simulation Video displaying Dispersion and Coupled Oscillation:
+
+  ![Simulation](./Docs/animation.gif)
 
 # Resources
 
