@@ -1,0 +1,106 @@
+# Reinforce parameter
+# Defined in slide 11
+# Chosen as in slide 17
+XSI = 10
+# Forget parameter
+# Defined in slide 11
+# Chosen as in slide 17
+PHI = 1
+# Spontaneous switching
+# Defined in slide 15
+# Chosen as in slide 17
+P = 0.2
+# Number of tasks: if you change this, you must also change the corresponding
+# parameter in the .argos file, line 98!
+TASKS = 2
+
+dT = 20
+
+#
+# Executed once at init time
+#
+function init() {
+  reset()
+}
+
+function update_threshold(index){
+  threshold[index] = threshold[index] + (dT*((PHI*(1-x[index])) - (XSI*x[index])))
+  if(threshold[index]<1.0) threshold[index] = 1.0
+  else if(threshold[index]>1000) threshold[index] = 1000.0
+}
+
+function step() {
+  if(t == 0)
+  {
+    # Schedule Tasks
+    T = {
+      .0 = (stimulus[0]^2)/(stimulus[0]^2 + threshold[0]^2), 
+      .1 = (stimulus[1]^2)/(stimulus[1]^2 + threshold[1]^2) 
+    }
+
+    idleTime = 1.0 - x[0] - x[1]
+
+    x = {
+      .0 = x[0] + (math.rng.uniform(2*T[0])*idleTime) - (P*x[0]),
+      .1 = x[1] + (math.rng.uniform(2*T[1])*idleTime) - (P*x[1])
+    }
+
+    xSum = x[0] + x[1]
+    if(xSum>1.0){
+      x = {
+        .0 = x[0]/xSum,
+        .1 = x[1]/xSum
+      }
+    }
+    
+    update_threshold(0)
+    update_threshold(1)
+    task = math.rng.uniform(TASKS-1)
+    other = (task+1)%TASKS
+  }
+  else if ((t>x[task]*dT) and (t<(x[0]+x[1])*dT)){
+    task = other
+    other = (task+1)%TASKS
+  }
+
+  debug_output()
+
+  t = t+1# Increment Counter
+  if(t>=dT) t = 0
+}
+
+#
+# Executed once upon resetting
+#
+function reset() {
+  math.rng.setseed(id)
+  task = 0 # must be an integer between 0 and TASKS-1!
+  other = (task+1)%TASKS
+
+  t = 0;
+  x = {
+    .0 = 0.0,
+    .1 = 0.0
+  }
+
+  threshold = {
+  .0 = 500.0,
+  .1 = 500.0
+  }
+
+  debug_output()
+}
+
+#
+# Executed once upon closing ARGoS
+#
+function destroy() {
+}
+
+#
+# Helper function
+#
+function debug_output() {
+  debug.print("t=", task, "; th0=", threshold[0], "; th1=", threshold[1])
+  log("id=", id, "; t=", task, "; th0=", threshold[0], "; th1=", threshold[1])
+}

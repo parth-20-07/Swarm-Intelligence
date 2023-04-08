@@ -20,5 +20,6 @@
     "activityBarBadge.background": "#d78795",
     "activityBarBadge.foreground": "#6a0dad"
   },
-  "peacock.color": "#c5c6d0"
+  "peacock.color": "#c5c6d0",
+  "cmake.configureOnOpen": false
 }

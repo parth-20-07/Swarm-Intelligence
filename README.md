@@ -12,6 +12,7 @@
     - [Assignment 6](#assignment-6)
     - [Assignment 7](#assignment-7)
     - [Assignment 8](#assignment-8)
+    - [Assignment 9](#assignment-9)
 - [Design Details](#design-details)
 - [License](#license)
 
@@ -50,6 +51,9 @@ Assignment 6 is meant for understanding in quorum sensing and Structural Models 
 
 ## [Assignment 8](./HW%208/)
 Assignment 8 is meant for learning the Swarm Simulation Software Argos and its programming language Buzz by implementing Diffusion and Coupled Oscillation.
+
+## [Assignment 9](./HW%209/)
+Assignment 9 is meant for implementing Theraulaz model in ArGoS.
 
 # Design Details
 - Designed for:
