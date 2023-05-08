@@ -31,6 +31,12 @@ Each Assignment shown here has a detailed explanation in its directory. Please r
 
 [Assignment 1](./HW%201/) is a basic test on Geometry, Probability, Calculus and Differential Equations.
 
+Assignment 1 aimed to test my knowledge and understanding of these concepts, which are essential for success in many fields, including science, engineering, and mathematics. I may have been required to solve problems, answer questions, or complete exercises related to these topics.
+
+By completing Assignment 1, I had the opportunity to review and reinforce my understanding of Geometry, Probability, Calculus, and Differential Equations, which are important mathematical tools used in many fields of study. Additionally, this assignment may have helped me identify areas where I needed to improve my understanding or skills, which can be useful for future assignments and learning opportunities.
+
+Overall, Assignment 1 was an important part of my course that helped me establish a foundation of knowledge and skills in fundamental mathematical concepts that are essential for success in many fields.
+
 ## [Assignment 2](./HW%202/)
 
 [Assignment 2](./HW%202/) is meant for developing an understanding of Graph Theory. The second assignment in my course was focused on developing an understanding of Graph Theory, which is a mathematical field used to study the properties and relationships of networks.
