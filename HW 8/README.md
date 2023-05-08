@@ -16,12 +16,15 @@
 - [Simulation Results](#simulation-results)
     - [Starting Frame](#starting-frame)
 - [Resources](#resources)
+- [Design Details](#design-details)
+- [License](#license)
 
 <!-- /TOC -->
 
+
 # Introduction
 
-The aim of the assignment is to simulation a swarm scenario where robots disperse around the environment while avoiding collisions and try to simulate coupled oscillations.
+The assignment aims to simulate a swarm scenario where robots disperse around the environment while avoiding collisions and trying to simulate coupled oscillations.
 
 # Install Essentials
 
@@ -37,13 +40,13 @@ The complete installation guide can be found [here](./Docs/argos_buzz_installati
 
 ## Proximity Sensor
 
-The proximity sensor on the robot is made up of 8 total sensors and numbered as follows.
+The proximity sensor on the robot is made up of 8 total sensors and is numbered as follows.
 
 ![Robot](./Docs/Sensor.png)
 
 ## Range and Bearing Communication System
 
-Range and Bearing Communication system is a feature in ARGoS where it connects and communicates with all the other robots in direct line of sight. Using this, it can communicate with its neighbors using publisher and subscriber network along with having the possibility to transmit position and orientation.
+Range and Bearing Communication system is a feature in ARGoS where it connects and communicates with all the other robots in direct line of sight. Using this, it can communicate with its neighbors using publisher and subscriber networks along with having the possibility to transmit position and orientation.
 
 # Code
 
@@ -146,3 +149,24 @@ Press Run in the ARGoS Window to start the simulation.
   SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
 - [ARGoS Simulator](https://www.argos-sim.info/)
 - [Buzz Wiki](https://the.swarming.buzz/wiki/doku.php?id=start)
+
+# Design Details
+- Designed for:
+  - Worcester Polytechnic Institute
+  - RBE 595-S07 - ST: Swarm Intelligence Assignments
+- Designed by:
+  - [Parth Patel](mailto:parth.pmech@gmail.com)
+
+# License
+
+This project is licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) (see [LICENSE.md](LICENSE.md)).
+
+Copyright 2023 Parth Patel
+
+Licensed under the GNU General Public License, Version 3.0 (the "License"); you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+_https://www.gnu.org/licenses/gpl-3.0.en.html_
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
