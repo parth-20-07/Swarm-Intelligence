@@ -1,7 +1,6 @@
 **Assignment 8**
 
 **Table of Contents**
-
 <!-- TOC -->
 
 - [Introduction](#introduction)

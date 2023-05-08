@@ -1,4 +1,0 @@
-/home/parth/Desktop/RBE595CS525_HW9/build/CMakeFiles/rebuild_cache.dir
-/home/parth/Desktop/RBE595CS525_HW9/build/CMakeFiles/edit_cache.dir
-/home/parth/Desktop/RBE595CS525_HW9/build/CMakeFiles/threshold_model.dir
-/home/parth/Desktop/RBE595CS525_HW9/build/CMakeFiles/threshold_model_autogen.dir
