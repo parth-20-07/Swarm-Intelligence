@@ -99,7 +99,7 @@ Overall, Assignment 6 was an important part of my course that helped me understa
 
 The seventh assignment in my course was focused on understanding two concepts: Quorum Sensing and Structural Models in Voting. This was a two-part assignment that consisted of Group Size Detection and Voting.
 
-Quorum Sensing is a biological phenomenon in which cells or organisms communicate with each other to coordinate their behavior. Structural Models in Voting refers to mathematical models used to analyze the behavior of voters in elections.
+Quorum Sensing is a biological phenomenon in which cells or organisms communicate with each other to coordinate their behavior. Structural Models in Voting refer to mathematical models used to analyze the behavior of voters in elections.
 
 The first part of Assignment 7, Group Size Detection, required me to understand and implement the concept of Quorum Sensing. This may have involved writing code or designing experiments to simulate the behavior of groups of organisms or robots.
 
