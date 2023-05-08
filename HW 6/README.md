@@ -5,33 +5,35 @@
 <!-- TOC -->
 
 - [Introduction](#introduction)
-  - [Install Dependencies](#install-dependencies)
+    - [Install Dependencies](#install-dependencies)
 - [Pseudocode](#pseudocode)
 - [Code](#code)
-  - [How the files are structured](#how-the-files-are-structured)
-    - [model.py](#modelpy)
-    - [main.py](#mainpy)
-  - [How to run the code](#how-to-run-the-code)
+    - [How the files are structured](#how-the-files-are-structured)
+        - [model.py](#modelpy)
+        - [main.py](#mainpy)
+    - [How to run the code](#how-to-run-the-code)
 - [Results and Observations](#results-and-observations)
-  - [Observations and Personal Conclusions](#observations-and-personal-conclusions)
-  - [Interesting Experimentation](#interesting-experimentation)
+    - [Observations and Personal Conclusions](#observations-and-personal-conclusions)
+    - [Interesting Experimentation](#interesting-experimentation)
 - [Resources](#resources)
+- [Design Details](#design-details)
+- [License](#license)
 
 <!-- /TOC -->
 
 # Introduction
 
-Pulse coupled oscillators are **limit cycle oscillators that are coupled in a pulsatile rather than smooth manner**[^1].
+Pulse-coupled oscillators are limit cycle oscillators that are coupled in a pulsatile rather than smooth manner[^1].
 
 What the statement means is:
 
-If you put together objects that oscillate (glowing or moving about a fixed point, etc), in a discrete time frame, their oscillation will interact with each other and cause them to couple together and oscillate in unison.
+If you put together objects that oscillate (glowing or moving about a fixed point, etc), in a discrete-time frame, their oscillation will interact with each other and cause them to couple together and oscillate in unison.
 
 Examples:
 
-- Flyflies glowing in unison after some time being together.
+- Fly flies glowing in unison after some time being together.
 - Mechanical Oscillators syncing to oscillate together.
-- Menstrual Cycles of Women who live together matching up with time.
+- Menstrual Cycles of Women who live together match up with time.
 
 ## Install Dependencies
 
@@ -43,7 +45,7 @@ pip3 install -r requirements.txt
 
 # Pseudocode
 
-Traverse through each of the cell. Create individual 2D Array to store `c (counter_grid)` and `state (grid)`
+Traverse through each of the cells. Create individual 2D Array to store `c (counter_grid)` and `state (grid)`
 
 ```sh
 init:
@@ -121,13 +123,13 @@ Define the Function to initiate the pulse-coupled oscillation. It takes `constan
 def coupled_oscillation_model(constant):
 ```
 
-We shall run the simulation for `1000` times to check if sync is met or not.
+We shall run the simulation `1000` times to check if the sync is met or not.
 
 ```py
 for iteration_number in range(20000):
 ```
 
-Increment the counter for each of the cells every iteration. If the value of counter if greater than `max_value`, we set the state of the corresponding set as `1` else set it as `0`.
+Increment the counter for each of the cells every iteration. If the value of the counter is greater than `max_value`, we set the state of the corresponding set as `1` else set it as `0`.
 
 ```py
 for y in range(grid_height):
@@ -141,9 +143,9 @@ for y in range(grid_height):
             grid[y, x] = 0
 ```
 
-We go through the grid cells one by one and check if the the current cell is `0`. If it is, we check the neighboring cells if they are flashing or not. If they are, we set the `neighbors_flashing` variable as `True` and finally increment the `counter_grid` of the corresponding cell.
+We go through the grid cells one by one and check if the current cell is `0`. If it is, we check the neighboring cells if they are flashing or not. If they are, we set the `neighbors_flashing` variable as `True` and finally increment the `counter_grid` of the corresponding cell.
 
-We again check if the value of counter if greater than `max_value`, we set the state of the corresponding set as `1` else set it as `0`.
+We again check if the value of the counter if greater than `max_value`, we set the state of the corresponding set as `1` else set it as `0`.
 
 ```py
 for y in range(grid_height):
@@ -172,7 +174,7 @@ for y in range(grid_height):
                     grid[y, x] = 0
 ```
 
-We save the plot every iteration as a `.png` file.
+We save the plot for every iteration as a `.png` file.
 
 ```py
 file_name = f"{folder_name}/Iteration {iteration_number}.png"
@@ -192,11 +194,11 @@ os.system(f"cd {folder_name} && convert -delay 20 -loop 0 *.png coupled_oscillat
 
 ### model.py
 
-Script contains the actual pulse-coupled biological oscillator model
+The script contains the actual pulse-coupled biological oscillator model
 
 ### main.py
 
-Contains a loop which imports the `model.py` file as a header and call the model with different values of `k`.
+Contains a loop that imports the `model.py` file as a header and calls the model with different values of `k`.
 
 ## How to run the code
 
@@ -241,11 +243,11 @@ python3 main.py
 
 ## Observations and Personal Conclusions
 
-- When perfect synchronization does not happen, blocks tend to form smaller groups which oscillate in negation of each other as their inverses.
+- When perfect synchronization does not happen, blocks tend to form smaller groups that oscillate in the negation of each other as their inverses.
 - Synchronization fails for k = 0.1
 - We start seeing 3-4 different coupled oscillations for k = 0.2
-- After few 100 initial iterations of failed synchronization, Perfect Synchronization can be seen for k = 0.3, 0.6, 0.7, 0.8, 0.9 and 1.
-- k = 0.5 has 2 groups which oscillate in opposition of each other.
+- After a few 100 initial iterations of failed synchronization, Perfect Synchronization can be seen for k = 0.3, 0.6, 0.7, 0.8, 0.9 and 1.
+- k = 0.5 has 2 groups that oscillate in opposition to each other.
 
 ## Interesting Experimentation
 
@@ -258,3 +260,24 @@ python3 main.py
   SIAM Journal on Applied Mathematics 1990 50:6, 1645-1662](https://epubs.siam.org/doi/10.1137/0150098)
 
 [^1]: *Source: [Pulse Coupled Oscillator](http://www.scholarpedia.org/article/Pulse_coupled_oscillators)*
+
+# Design Details
+- Designed for:
+  - Worcester Polytechnic Institute
+  - RBE 595-S07 - ST: Swarm Intelligence Assignments
+- Designed by:
+  - [Parth Patel](mailto:parth.pmech@gmail.com)
+
+# License
+
+This project is licensed under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) (see [LICENSE.md](LICENSE.md)).
+
+Copyright 2023 Parth Patel
+
+Licensed under the GNU General Public License, Version 3.0 (the "License"); you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+_https://www.gnu.org/licenses/gpl-3.0.en.html_
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
